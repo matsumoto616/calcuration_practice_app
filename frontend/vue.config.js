@@ -13,6 +13,8 @@ module.exports = {
             presets: ['@babel/preset-env']
           };
         });
+    },
+    devServer: {
+      disableHostCheck: true
     }
   };
-  
